@@ -34,7 +34,7 @@ const info = country => {
        <img class='img' src="${country.flag}" alt="">
        <h3 class='country-Name'>Population:${country.population}</h3>
        <h3 class='country-Name'>Area:${country.area}</h3>
-       <h3 class='country-Name'>Area:${country.capital}</h3>
+       <h3 class='country-Name'>Capital:${country.capital}</h3>
        <h3 class='country-Name'>Region:${country.region}</h3>
        <h3 class='country-Name'>Subregion:${country.subregion}</h3>
        <button id="Back">Back</button>
